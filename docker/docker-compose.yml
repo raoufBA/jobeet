@@ -1,0 +1,60 @@
+version: '2'
+services:
+  php5:
+    build:
+      context: ./dockerfiles/php-fpm/php5-6
+      dockerfile: Dockerfile
+    container_name: php5
+    volumes:
+      - ../:/var/www/html/jobeet
+      - ./dockerfiles/php-fpm/php.ini:/usr/local/etc/php/php.ini
+    networks:
+      vpcbr:
+        ipv4_address: 10.5.0.5
+    depends_on:
+      - mysql
+      - mailcatcher
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ../:/var/www/html/jobeet
+      - ./dockerfiles/nginx:/etc/nginx/conf.d
+    networks:
+      vpcbr:
+        ipv4_address: 10.5.0.3
+    depends_on:
+      - php5
+  mysql:
+    container_name: mysql5.7
+    image: mysql:5.7
+    ports:
+      - "3307:3306"
+    networks:
+      vpcbr:
+        ipv4_address: 10.5.0.4
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: jobeet
+      MYSQL_PASSWORD: jobeet
+      MYSQL_DATABASE: jobeet
+
+  mailcatcher:
+    image: schickling/mailcatcher
+    container_name: mailcatcher
+    ports:
+      - "1080:1080"
+      - "1025:1025"
+    networks:
+      vpcbr:
+        ipv4_address: 10.5.0.7
+
+networks:
+  vpcbr:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.5.0.0/16
+          gateway: 10.5.0.1
