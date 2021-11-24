@@ -1,2 +1,12 @@
 [23-Nov-2021 19:24:58 Asia/Riyadh] Action "default/module" does not exist.
 [23-Nov-2021 19:24:59 Asia/Riyadh] Action "default/module" does not exist.
+[24-Nov-2021 10:27:33 Asia/Riyadh] Action "backend/index" does not exist.
+[24-Nov-2021 10:28:01 Asia/Riyadh] Action "backend/fd" does not exist.
+[24-Nov-2021 10:28:30 Asia/Riyadh] Unable to parse file "/var/www/html/jobeet/apps/frontend/config/filters.yml": Unable to parse line 6 ([yml]).
+[24-Nov-2021 10:30:46 Asia/Riyadh] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[24-Nov-2021 10:31:14 Asia/Riyadh] Empty module and/or action after parsing the URL "/frontend/" (/).
+[24-Nov-2021 10:31:20 Asia/Riyadh] Empty module and/or action after parsing the URL "/frontend_dev.pph" (/).
+[24-Nov-2021 10:31:28 Asia/Riyadh] Empty module and/or action after parsing the URL "/backend_dev.pph" (/).
+[24-Nov-2021 10:42:19 Asia/Riyadh] Action "backend/default" does not exist.
+[24-Nov-2021 10:46:35 Asia/Riyadh] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jobeet.sf_guard_user' doesn't exist
+[24-Nov-2021 10:49:39 Asia/Riyadh] Action "log_out/index" does not exist.
