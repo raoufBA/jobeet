@@ -344,3 +344,63 @@ Stack trace:
 #5 /var/www/html/jobeet/symfony(14): include('/var/www/html/j...')
 #6 {main}
   thrown in /var/www/html/jobeet/lib/vendor/symfony/lib/config/sfProjectConfiguration.class.php on line 468
+[24-Nov-2021 12:21:20 Asia/Riyadh] PHP Fatal error:  Class 'PluginsfGuardRememberKeyTable' not found in /var/www/html/jobeet/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardRememberKeyTable.class.php on line 9
+[24-Nov-2021 12:21:20 Asia/Riyadh] PHP Stack trace:
+[24-Nov-2021 12:21:20 Asia/Riyadh] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 12:21:20 Asia/Riyadh] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 12:21:20 Asia/Riyadh] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 12:21:20 Asia/Riyadh] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 12:21:20 Asia/Riyadh] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:97
+[24-Nov-2021 12:21:20 Asia/Riyadh] PHP   6. sfDoctrineDataLoadTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:69
+[24-Nov-2021 12:21:20 Asia/Riyadh] PHP   7. sfDoctrineBaseTask->callDoctrineCli() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/task/sfDoctrineDataLoadTask.class.php:89
+[24-Nov-2021 12:21:20 Asia/Riyadh] PHP   8. Doctrine_Cli->run() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/task/sfDoctrineBaseTask.class.php:64
+[24-Nov-2021 12:21:20 Asia/Riyadh] PHP   9. Doctrine_Cli->_run() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Cli.php:452
+[24-Nov-2021 12:21:20 Asia/Riyadh] PHP  10. Doctrine_Cli->executeTask() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Cli.php:498
+[24-Nov-2021 12:21:20 Asia/Riyadh] PHP  11. Doctrine_Task_LoadData->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Cli.php:516
+[24-Nov-2021 12:21:20 Asia/Riyadh] PHP  12. Doctrine_Core::loadModels() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Task/LoadData.php:43
+[24-Nov-2021 12:21:20 Asia/Riyadh] PHP  13. require_once() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Core.php:678
+[24-Nov-2021 12:24:31 Asia/Riyadh] PHP Fatal error:  Class 'PluginsfGuardRememberKeyTable' not found in /var/www/html/jobeet/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardRememberKeyTable.class.php on line 9
+[24-Nov-2021 12:24:31 Asia/Riyadh] PHP Stack trace:
+[24-Nov-2021 12:24:31 Asia/Riyadh] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 12:24:31 Asia/Riyadh] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 12:24:31 Asia/Riyadh] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 12:24:31 Asia/Riyadh] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 12:24:31 Asia/Riyadh] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:97
+[24-Nov-2021 12:24:31 Asia/Riyadh] PHP   6. sfDoctrineDataLoadTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:69
+[24-Nov-2021 12:24:31 Asia/Riyadh] PHP   7. sfDoctrineBaseTask->callDoctrineCli() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/task/sfDoctrineDataLoadTask.class.php:89
+[24-Nov-2021 12:24:31 Asia/Riyadh] PHP   8. Doctrine_Cli->run() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/task/sfDoctrineBaseTask.class.php:64
+[24-Nov-2021 12:24:31 Asia/Riyadh] PHP   9. Doctrine_Cli->_run() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Cli.php:452
+[24-Nov-2021 12:24:31 Asia/Riyadh] PHP  10. Doctrine_Cli->executeTask() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Cli.php:498
+[24-Nov-2021 12:24:31 Asia/Riyadh] PHP  11. Doctrine_Task_LoadData->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Cli.php:516
+[24-Nov-2021 12:24:31 Asia/Riyadh] PHP  12. Doctrine_Core::loadModels() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Task/LoadData.php:43
+[24-Nov-2021 12:24:31 Asia/Riyadh] PHP  13. require_once() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Core.php:678
+[24-Nov-2021 12:27:57 Asia/Riyadh] PHP Fatal error:  Class 'PluginsfGuardRememberKeyTable' not found in /var/www/html/jobeet/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardRememberKeyTable.class.php on line 9
+[24-Nov-2021 12:27:57 Asia/Riyadh] PHP Stack trace:
+[24-Nov-2021 12:27:57 Asia/Riyadh] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 12:27:57 Asia/Riyadh] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 12:27:57 Asia/Riyadh] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 12:27:57 Asia/Riyadh] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 12:27:57 Asia/Riyadh] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:97
+[24-Nov-2021 12:27:57 Asia/Riyadh] PHP   6. sfDoctrineDataLoadTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:69
+[24-Nov-2021 12:27:57 Asia/Riyadh] PHP   7. sfDoctrineBaseTask->callDoctrineCli() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/task/sfDoctrineDataLoadTask.class.php:89
+[24-Nov-2021 12:27:57 Asia/Riyadh] PHP   8. Doctrine_Cli->run() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/task/sfDoctrineBaseTask.class.php:64
+[24-Nov-2021 12:27:57 Asia/Riyadh] PHP   9. Doctrine_Cli->_run() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Cli.php:452
+[24-Nov-2021 12:27:57 Asia/Riyadh] PHP  10. Doctrine_Cli->executeTask() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Cli.php:498
+[24-Nov-2021 12:27:57 Asia/Riyadh] PHP  11. Doctrine_Task_LoadData->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Cli.php:516
+[24-Nov-2021 12:27:57 Asia/Riyadh] PHP  12. Doctrine_Core::loadModels() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Task/LoadData.php:43
+[24-Nov-2021 12:27:57 Asia/Riyadh] PHP  13. require_once() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Core.php:678
+[24-Nov-2021 12:28:08 Asia/Riyadh] PHP Fatal error:  Class 'PluginsfGuardRememberKeyTable' not found in /var/www/html/jobeet/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardRememberKeyTable.class.php on line 9
+[24-Nov-2021 12:28:08 Asia/Riyadh] PHP Stack trace:
+[24-Nov-2021 12:28:08 Asia/Riyadh] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 12:28:08 Asia/Riyadh] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 12:28:08 Asia/Riyadh] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 12:28:08 Asia/Riyadh] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 12:28:08 Asia/Riyadh] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:97
+[24-Nov-2021 12:28:08 Asia/Riyadh] PHP   6. sfDoctrineDataLoadTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:69
+[24-Nov-2021 12:28:08 Asia/Riyadh] PHP   7. sfDoctrineBaseTask->callDoctrineCli() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/task/sfDoctrineDataLoadTask.class.php:89
+[24-Nov-2021 12:28:08 Asia/Riyadh] PHP   8. Doctrine_Cli->run() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/task/sfDoctrineBaseTask.class.php:64
+[24-Nov-2021 12:28:08 Asia/Riyadh] PHP   9. Doctrine_Cli->_run() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Cli.php:452
+[24-Nov-2021 12:28:08 Asia/Riyadh] PHP  10. Doctrine_Cli->executeTask() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Cli.php:498
+[24-Nov-2021 12:28:08 Asia/Riyadh] PHP  11. Doctrine_Task_LoadData->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Cli.php:516
+[24-Nov-2021 12:28:08 Asia/Riyadh] PHP  12. Doctrine_Core::loadModels() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Task/LoadData.php:43
+[24-Nov-2021 12:28:08 Asia/Riyadh] PHP  13. require_once() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Core.php:678
