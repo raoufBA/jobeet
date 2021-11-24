@@ -1,0 +1,346 @@
+[24-Nov-2021 00:32:00 Asia/Riyadh] PHP Warning:  require_once(/var/www/html/jobeet/config/../lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php): failed to open stream: No such file or directory in /var/www/html/jobeet/config/ProjectConfiguration.class.php on line 3
+[24-Nov-2021 00:32:00 Asia/Riyadh] PHP Stack trace:
+[24-Nov-2021 00:32:00 Asia/Riyadh] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 00:32:00 Asia/Riyadh] PHP   2. require_once() /var/www/html/jobeet/symfony:13
+[24-Nov-2021 00:32:00 Asia/Riyadh] PHP Fatal error:  require_once(): Failed opening required '/var/www/html/jobeet/config/../lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php' (include_path='.:/opt/php72/lib/php') in /var/www/html/jobeet/config/ProjectConfiguration.class.php on line 3
+[24-Nov-2021 00:32:00 Asia/Riyadh] PHP Stack trace:
+[24-Nov-2021 00:32:00 Asia/Riyadh] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 00:32:00 Asia/Riyadh] PHP   2. require_once() /var/www/html/jobeet/symfony:13
+[24-Nov-2021 00:32:48 Asia/Riyadh] PHP Warning:  require_once(/var/www/html/jobeet/config/../lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php): failed to open stream: No such file or directory in /var/www/html/jobeet/config/ProjectConfiguration.class.php on line 3
+[24-Nov-2021 00:32:48 Asia/Riyadh] PHP Stack trace:
+[24-Nov-2021 00:32:48 Asia/Riyadh] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 00:32:48 Asia/Riyadh] PHP   2. require_once() /var/www/html/jobeet/symfony:13
+[24-Nov-2021 00:32:48 Asia/Riyadh] PHP Fatal error:  require_once(): Failed opening required '/var/www/html/jobeet/config/../lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php' (include_path='.:/opt/php72/lib/php') in /var/www/html/jobeet/config/ProjectConfiguration.class.php on line 3
+[24-Nov-2021 00:32:48 Asia/Riyadh] PHP Stack trace:
+[24-Nov-2021 00:32:48 Asia/Riyadh] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 00:32:48 Asia/Riyadh] PHP   2. require_once() /var/www/html/jobeet/symfony:13
+[24-Nov-2021 00:33:31 Asia/Riyadh] PHP Warning:  require_once(/var/www/html/jobeet/config/../lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php): failed to open stream: No such file or directory in /var/www/html/jobeet/config/ProjectConfiguration.class.php on line 3
+[24-Nov-2021 00:33:31 Asia/Riyadh] PHP Stack trace:
+[24-Nov-2021 00:33:31 Asia/Riyadh] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 00:33:31 Asia/Riyadh] PHP   2. require_once() /var/www/html/jobeet/symfony:13
+[24-Nov-2021 00:33:31 Asia/Riyadh] PHP Fatal error:  require_once(): Failed opening required '/var/www/html/jobeet/config/../lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php' (include_path='.:/opt/php72/lib/php') in /var/www/html/jobeet/config/ProjectConfiguration.class.php on line 3
+[24-Nov-2021 00:33:31 Asia/Riyadh] PHP Stack trace:
+[24-Nov-2021 00:33:31 Asia/Riyadh] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 00:33:31 Asia/Riyadh] PHP   2. require_once() /var/www/html/jobeet/symfony:13
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP Fatal error:  Class 'Timestampsable' not found in /var/www/html/jobeet/lib/model/doctrine/base/BasePost.class.php on line 38
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP Stack trace:
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:97
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP   6. sfDoctrineBuildTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:69
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP   7. sfTask->run() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/task/sfDoctrineBuildTask.class.php:169
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP   8. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:173
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP   9. sfDoctrineBuildFormsTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:69
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP  10. sfGeneratorManager->generate() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/task/sfDoctrineBuildFormsTask.class.php:64
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP  11. sfDoctrineFormGenerator->generate() /var/www/html/jobeet/lib/vendor/symfony/lib/generator/sfGeneratorManager.class.php:114
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP  12. sfDoctrineFormGenerator->loadModels() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/generator/sfDoctrineFormGenerator.class.php:73
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP  13. Doctrine_Core::initializeModels() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/generator/sfDoctrineFormGenerator.class.php:635
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP  14. Doctrine_Core::getTable() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Core.php:754
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP  15. Doctrine_Connection->getTable() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Core.php:1107
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP  16. Doctrine_Table->__construct() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Connection.php:1145
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP  17. BasePost->setUp() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Table.php:265
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP Fatal error:  Call to a member function evictAll() on null in /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Connection.php on line 1267
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP Stack trace:
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:97
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP   6. sfDoctrineBuildTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:69
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP   7. sfTask->run() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/task/sfDoctrineBuildTask.class.php:169
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP   8. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:173
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP   9. sfDoctrineBuildFormsTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:69
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP  10. sfGeneratorManager->generate() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/task/sfDoctrineBuildFormsTask.class.php:64
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP  11. sfDoctrineFormGenerator->generate() /var/www/html/jobeet/lib/vendor/symfony/lib/generator/sfGeneratorManager.class.php:114
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP  12. sfDoctrineFormGenerator->loadModels() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/generator/sfDoctrineFormGenerator.class.php:73
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP  13. Doctrine_Core::initializeModels() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/generator/sfDoctrineFormGenerator.class.php:635
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP  14. Doctrine_Core::getTable() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Core.php:754
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP  15. Doctrine_Connection->getTable() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Core.php:1107
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP  16. Doctrine_Table->__construct() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Connection.php:1145
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP  17. BasePost->setUp() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Table.php:265
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP  18. sfDatabaseManager->shutdown() /var/www/html/jobeet/lib/vendor/symfony/lib/database/sfDatabaseManager.class.php:0
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP  19. sfDoctrineDatabase->shutdown() /var/www/html/jobeet/lib/vendor/symfony/lib/database/sfDatabaseManager.class.php:134
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP  20. Doctrine_Manager->closeConnection() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/database/sfDoctrineDatabase.class.php:152
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP  21. Doctrine_Connection->close() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Manager.php:583
+[24-Nov-2021 00:57:02 Asia/Riyadh] PHP  22. Doctrine_Connection->clear() /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/lib/Doctrine/Connection.php:1296
+[24-Nov-2021 01:08:05 Asia/Riyadh] PHP Notice:  Undefined offset: 0 in /var/www/html/jobeet/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/task/sfDoctrineMigrateTask.class.php on line 108
+[24-Nov-2021 01:08:05 Asia/Riyadh] PHP Stack trace:
+[24-Nov-2021 01:08:05 Asia/Riyadh] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 01:08:05 Asia/Riyadh] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 01:08:05 Asia/Riyadh] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 01:08:05 Asia/Riyadh] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 01:08:05 Asia/Riyadh] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:97
+[24-Nov-2021 01:08:05 Asia/Riyadh] PHP   6. sfDoctrineMigrateTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:69
+[24-Nov-2021 05:16:32 UTC] PHP Warning:  require_once(PEAR.php): failed to open stream: No such file or directory in /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php on line 15
+[24-Nov-2021 05:16:32 UTC] PHP Stack trace:
+[24-Nov-2021 05:16:32 UTC] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 05:16:32 UTC] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 05:16:32 UTC] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 05:16:32 UTC] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 05:16:32 UTC] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:97
+[24-Nov-2021 05:16:32 UTC] PHP   6. sfPluginListTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:69
+[24-Nov-2021 05:16:32 UTC] PHP   7. sfBaseTask->getPluginManager() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:49
+[24-Nov-2021 05:16:32 UTC] PHP   8. spl_autoload_call() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:411
+[24-Nov-2021 05:16:32 UTC] PHP   9. sfCoreAutoload->autoload() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:411
+[24-Nov-2021 05:16:32 UTC] PHP  10. require() /var/www/html/jobeet/lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php:100
+[24-Nov-2021 05:16:32 UTC] PHP Fatal error:  require_once(): Failed opening required 'PEAR.php' (include_path='.:/opt/php72/lib/php') in /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php on line 15
+[24-Nov-2021 05:16:32 UTC] PHP Stack trace:
+[24-Nov-2021 05:16:32 UTC] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 05:16:32 UTC] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 05:16:32 UTC] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 05:16:32 UTC] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 05:16:32 UTC] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:97
+[24-Nov-2021 05:16:32 UTC] PHP   6. sfPluginListTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:69
+[24-Nov-2021 05:16:32 UTC] PHP   7. sfBaseTask->getPluginManager() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:49
+[24-Nov-2021 05:16:32 UTC] PHP   8. spl_autoload_call() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:411
+[24-Nov-2021 05:16:32 UTC] PHP   9. sfCoreAutoload->autoload() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:411
+[24-Nov-2021 05:16:32 UTC] PHP  10. require() /var/www/html/jobeet/lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php:100
+[24-Nov-2021 05:36:32 UTC] PHP Warning:  require_once(PEAR.php): failed to open stream: No such file or directory in /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php on line 15
+[24-Nov-2021 05:36:32 UTC] PHP Stack trace:
+[24-Nov-2021 05:36:32 UTC] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 05:36:32 UTC] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 05:36:32 UTC] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 05:36:32 UTC] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 05:36:32 UTC] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:97
+[24-Nov-2021 05:36:32 UTC] PHP   6. sfPluginInstallTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:69
+[24-Nov-2021 05:36:32 UTC] PHP   7. sfBaseTask->getPluginManager() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginInstallTask.class.php:105
+[24-Nov-2021 05:36:32 UTC] PHP   8. spl_autoload_call() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginInstallTask.class.php:411
+[24-Nov-2021 05:36:32 UTC] PHP   9. sfCoreAutoload->autoload() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginInstallTask.class.php:411
+[24-Nov-2021 05:36:32 UTC] PHP  10. require() /var/www/html/jobeet/lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php:100
+[24-Nov-2021 05:36:32 UTC] PHP Fatal error:  require_once(): Failed opening required 'PEAR.php' (include_path='.:/opt/php72/lib/php') in /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php on line 15
+[24-Nov-2021 05:36:32 UTC] PHP Stack trace:
+[24-Nov-2021 05:36:32 UTC] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 05:36:32 UTC] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 05:36:32 UTC] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 05:36:32 UTC] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 05:36:32 UTC] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:97
+[24-Nov-2021 05:36:32 UTC] PHP   6. sfPluginInstallTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:69
+[24-Nov-2021 05:36:32 UTC] PHP   7. sfBaseTask->getPluginManager() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginInstallTask.class.php:105
+[24-Nov-2021 05:36:32 UTC] PHP   8. spl_autoload_call() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginInstallTask.class.php:411
+[24-Nov-2021 05:36:32 UTC] PHP   9. sfCoreAutoload->autoload() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginInstallTask.class.php:411
+[24-Nov-2021 05:36:32 UTC] PHP  10. require() /var/www/html/jobeet/lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php:100
+[24-Nov-2021 05:40:55 UTC] PHP Warning:  require_once(PEAR.php): failed to open stream: No such file or directory in /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php on line 15
+[24-Nov-2021 05:40:55 UTC] PHP Stack trace:
+[24-Nov-2021 05:40:55 UTC] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 05:40:55 UTC] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 05:40:55 UTC] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 05:40:55 UTC] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 05:40:55 UTC] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:97
+[24-Nov-2021 05:40:55 UTC] PHP   6. sfPluginListTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:69
+[24-Nov-2021 05:40:55 UTC] PHP   7. sfBaseTask->getPluginManager() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:49
+[24-Nov-2021 05:40:55 UTC] PHP   8. spl_autoload_call() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:411
+[24-Nov-2021 05:40:55 UTC] PHP   9. sfCoreAutoload->autoload() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:411
+[24-Nov-2021 05:40:55 UTC] PHP  10. require() /var/www/html/jobeet/lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php:100
+[24-Nov-2021 05:40:55 UTC] PHP Fatal error:  require_once(): Failed opening required 'PEAR.php' (include_path='.:/opt/php72/lib/php') in /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php on line 15
+[24-Nov-2021 05:40:55 UTC] PHP Stack trace:
+[24-Nov-2021 05:40:55 UTC] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 05:40:55 UTC] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 05:40:55 UTC] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 05:40:55 UTC] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 05:40:55 UTC] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:97
+[24-Nov-2021 05:40:55 UTC] PHP   6. sfPluginListTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:69
+[24-Nov-2021 05:40:55 UTC] PHP   7. sfBaseTask->getPluginManager() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:49
+[24-Nov-2021 05:40:55 UTC] PHP   8. spl_autoload_call() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:411
+[24-Nov-2021 05:40:55 UTC] PHP   9. sfCoreAutoload->autoload() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:411
+[24-Nov-2021 05:40:55 UTC] PHP  10. require() /var/www/html/jobeet/lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php:100
+[24-Nov-2021 06:03:40 UTC] PHP Warning:  require_once(PEAR.php): failed to open stream: No such file or directory in /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php on line 15
+[24-Nov-2021 06:03:40 UTC] PHP Stack trace:
+[24-Nov-2021 06:03:40 UTC] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 06:03:40 UTC] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 06:03:40 UTC] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 06:03:40 UTC] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 06:03:40 UTC] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:98
+[24-Nov-2021 06:03:40 UTC] PHP   6. sfPluginListTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:70
+[24-Nov-2021 06:03:40 UTC] PHP   7. sfBaseTask->getPluginManager() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:49
+[24-Nov-2021 06:03:40 UTC] PHP   8. spl_autoload_call() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:418
+[24-Nov-2021 06:03:40 UTC] PHP   9. sfCoreAutoload->autoload() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:418
+[24-Nov-2021 06:03:40 UTC] PHP  10. require() /var/www/html/jobeet/lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php:102
+[24-Nov-2021 06:03:40 UTC] PHP Fatal error:  require_once(): Failed opening required 'PEAR.php' (include_path='.:/opt/php72/lib/php') in /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php on line 15
+[24-Nov-2021 06:03:40 UTC] PHP Stack trace:
+[24-Nov-2021 06:03:40 UTC] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 06:03:40 UTC] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 06:03:40 UTC] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 06:03:40 UTC] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 06:03:40 UTC] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:98
+[24-Nov-2021 06:03:40 UTC] PHP   6. sfPluginListTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:70
+[24-Nov-2021 06:03:40 UTC] PHP   7. sfBaseTask->getPluginManager() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:49
+[24-Nov-2021 06:03:40 UTC] PHP   8. spl_autoload_call() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:418
+[24-Nov-2021 06:03:40 UTC] PHP   9. sfCoreAutoload->autoload() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:418
+[24-Nov-2021 06:03:40 UTC] PHP  10. require() /var/www/html/jobeet/lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php:102
+[24-Nov-2021 06:04:55 UTC] PHP Warning:  require_once(PEAR.php): failed to open stream: No such file or directory in /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php on line 15
+[24-Nov-2021 06:04:55 UTC] PHP Stack trace:
+[24-Nov-2021 06:04:55 UTC] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 06:04:55 UTC] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 06:04:55 UTC] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 06:04:55 UTC] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 06:04:55 UTC] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:98
+[24-Nov-2021 06:04:55 UTC] PHP   6. sfPluginListTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:70
+[24-Nov-2021 06:04:55 UTC] PHP   7. sfBaseTask->getPluginManager() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:49
+[24-Nov-2021 06:04:55 UTC] PHP   8. spl_autoload_call() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:418
+[24-Nov-2021 06:04:55 UTC] PHP   9. sfCoreAutoload->autoload() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:418
+[24-Nov-2021 06:04:55 UTC] PHP  10. require() /var/www/html/jobeet/lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php:102
+[24-Nov-2021 06:04:55 UTC] PHP Fatal error:  require_once(): Failed opening required 'PEAR.php' (include_path='.:/opt/php72/lib/php') in /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php on line 15
+[24-Nov-2021 06:04:55 UTC] PHP Stack trace:
+[24-Nov-2021 06:04:55 UTC] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 06:04:55 UTC] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 06:04:55 UTC] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 06:04:55 UTC] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 06:04:55 UTC] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:98
+[24-Nov-2021 06:04:55 UTC] PHP   6. sfPluginListTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:70
+[24-Nov-2021 06:04:55 UTC] PHP   7. sfBaseTask->getPluginManager() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:49
+[24-Nov-2021 06:04:55 UTC] PHP   8. spl_autoload_call() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:418
+[24-Nov-2021 06:04:55 UTC] PHP   9. sfCoreAutoload->autoload() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:418
+[24-Nov-2021 06:04:55 UTC] PHP  10. require() /var/www/html/jobeet/lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php:102
+[24-Nov-2021 06:06:27 UTC] PHP Warning:  require_once(PEAR.php): failed to open stream: No such file or directory in /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php on line 15
+[24-Nov-2021 06:06:27 UTC] PHP Stack trace:
+[24-Nov-2021 06:06:27 UTC] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 06:06:27 UTC] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 06:06:27 UTC] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 06:06:27 UTC] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 06:06:27 UTC] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:98
+[24-Nov-2021 06:06:27 UTC] PHP   6. sfPluginListTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:70
+[24-Nov-2021 06:06:27 UTC] PHP   7. sfBaseTask->getPluginManager() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:49
+[24-Nov-2021 06:06:27 UTC] PHP   8. spl_autoload_call() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:418
+[24-Nov-2021 06:06:27 UTC] PHP   9. sfCoreAutoload->autoload() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:418
+[24-Nov-2021 06:06:27 UTC] PHP  10. require() /var/www/html/jobeet/lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php:102
+[24-Nov-2021 06:06:27 UTC] PHP Fatal error:  require_once(): Failed opening required 'PEAR.php' (include_path='.:/opt/php72/lib/php') in /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php on line 15
+[24-Nov-2021 06:06:27 UTC] PHP Stack trace:
+[24-Nov-2021 06:06:27 UTC] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 06:06:27 UTC] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 06:06:27 UTC] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 06:06:27 UTC] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 06:06:27 UTC] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:98
+[24-Nov-2021 06:06:27 UTC] PHP   6. sfPluginListTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:70
+[24-Nov-2021 06:06:27 UTC] PHP   7. sfBaseTask->getPluginManager() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:49
+[24-Nov-2021 06:06:27 UTC] PHP   8. spl_autoload_call() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:418
+[24-Nov-2021 06:06:27 UTC] PHP   9. sfCoreAutoload->autoload() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:418
+[24-Nov-2021 06:06:27 UTC] PHP  10. require() /var/www/html/jobeet/lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php:102
+[24-Nov-2021 06:08:43 UTC] PHP Warning:  require_once(PEAR): failed to open stream: No such file or directory in /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php on line 15
+[24-Nov-2021 06:08:43 UTC] PHP Stack trace:
+[24-Nov-2021 06:08:43 UTC] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 06:08:43 UTC] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 06:08:43 UTC] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 06:08:43 UTC] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 06:08:43 UTC] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:98
+[24-Nov-2021 06:08:43 UTC] PHP   6. sfPluginListTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:70
+[24-Nov-2021 06:08:43 UTC] PHP   7. sfBaseTask->getPluginManager() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:49
+[24-Nov-2021 06:08:43 UTC] PHP   8. spl_autoload_call() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:418
+[24-Nov-2021 06:08:43 UTC] PHP   9. sfCoreAutoload->autoload() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:418
+[24-Nov-2021 06:08:43 UTC] PHP  10. require() /var/www/html/jobeet/lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php:102
+[24-Nov-2021 06:08:43 UTC] PHP Fatal error:  require_once(): Failed opening required 'PEAR' (include_path='.:/opt/php72/lib/php') in /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php on line 15
+[24-Nov-2021 06:08:43 UTC] PHP Stack trace:
+[24-Nov-2021 06:08:43 UTC] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 06:08:43 UTC] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 06:08:43 UTC] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 06:08:43 UTC] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 06:08:43 UTC] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:98
+[24-Nov-2021 06:08:43 UTC] PHP   6. sfPluginListTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:70
+[24-Nov-2021 06:08:43 UTC] PHP   7. sfBaseTask->getPluginManager() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:49
+[24-Nov-2021 06:08:43 UTC] PHP   8. spl_autoload_call() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:418
+[24-Nov-2021 06:08:43 UTC] PHP   9. sfCoreAutoload->autoload() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:418
+[24-Nov-2021 06:08:43 UTC] PHP  10. require() /var/www/html/jobeet/lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php:102
+[24-Nov-2021 06:09:01 UTC] PHP Warning:  require_once(\PEAR): failed to open stream: No such file or directory in /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php on line 15
+[24-Nov-2021 06:09:01 UTC] PHP Stack trace:
+[24-Nov-2021 06:09:01 UTC] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 06:09:01 UTC] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 06:09:01 UTC] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 06:09:01 UTC] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 06:09:01 UTC] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:98
+[24-Nov-2021 06:09:01 UTC] PHP   6. sfPluginListTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:70
+[24-Nov-2021 06:09:01 UTC] PHP   7. sfBaseTask->getPluginManager() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:49
+[24-Nov-2021 06:09:01 UTC] PHP   8. spl_autoload_call() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:418
+[24-Nov-2021 06:09:01 UTC] PHP   9. sfCoreAutoload->autoload() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:418
+[24-Nov-2021 06:09:01 UTC] PHP  10. require() /var/www/html/jobeet/lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php:102
+[24-Nov-2021 06:09:01 UTC] PHP Fatal error:  require_once(): Failed opening required '\PEAR' (include_path='.:/opt/php72/lib/php') in /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php on line 15
+[24-Nov-2021 06:09:01 UTC] PHP Stack trace:
+[24-Nov-2021 06:09:01 UTC] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 06:09:01 UTC] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 06:09:01 UTC] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 06:09:01 UTC] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 06:09:01 UTC] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:98
+[24-Nov-2021 06:09:01 UTC] PHP   6. sfPluginListTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:70
+[24-Nov-2021 06:09:01 UTC] PHP   7. sfBaseTask->getPluginManager() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:49
+[24-Nov-2021 06:09:01 UTC] PHP   8. spl_autoload_call() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:418
+[24-Nov-2021 06:09:01 UTC] PHP   9. sfCoreAutoload->autoload() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:418
+[24-Nov-2021 06:09:01 UTC] PHP  10. require() /var/www/html/jobeet/lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php:102
+[24-Nov-2021 06:09:23 UTC] PHP Warning:  require_once(PEAR/Config.php): failed to open stream: No such file or directory in /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearConfig.class.php on line 11
+[24-Nov-2021 06:09:23 UTC] PHP Stack trace:
+[24-Nov-2021 06:09:23 UTC] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 06:09:23 UTC] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 06:09:23 UTC] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 06:09:23 UTC] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 06:09:23 UTC] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:98
+[24-Nov-2021 06:09:23 UTC] PHP   6. sfPluginListTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:70
+[24-Nov-2021 06:09:23 UTC] PHP   7. sfBaseTask->getPluginManager() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:49
+[24-Nov-2021 06:09:23 UTC] PHP   8. sfPearEnvironment->__construct() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:423
+[24-Nov-2021 06:09:23 UTC] PHP   9. sfPearEnvironment->initialize() /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php:49
+[24-Nov-2021 06:09:23 UTC] PHP  10. sfPearEnvironment->initializeConfiguration() /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php:100
+[24-Nov-2021 06:09:23 UTC] PHP  11. spl_autoload_call() /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php:245
+[24-Nov-2021 06:09:23 UTC] PHP  12. sfCoreAutoload->autoload() /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php:245
+[24-Nov-2021 06:09:23 UTC] PHP  13. require() /var/www/html/jobeet/lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php:102
+[24-Nov-2021 06:09:23 UTC] PHP Fatal error:  require_once(): Failed opening required 'PEAR/Config.php' (include_path='.:/opt/php72/lib/php') in /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearConfig.class.php on line 11
+[24-Nov-2021 06:09:23 UTC] PHP Stack trace:
+[24-Nov-2021 06:09:23 UTC] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 06:09:23 UTC] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 06:09:23 UTC] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 06:09:23 UTC] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 06:09:23 UTC] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:98
+[24-Nov-2021 06:09:23 UTC] PHP   6. sfPluginListTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:70
+[24-Nov-2021 06:09:23 UTC] PHP   7. sfBaseTask->getPluginManager() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:49
+[24-Nov-2021 06:09:23 UTC] PHP   8. sfPearEnvironment->__construct() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:423
+[24-Nov-2021 06:09:23 UTC] PHP   9. sfPearEnvironment->initialize() /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php:49
+[24-Nov-2021 06:09:23 UTC] PHP  10. sfPearEnvironment->initializeConfiguration() /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php:100
+[24-Nov-2021 06:09:23 UTC] PHP  11. spl_autoload_call() /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php:245
+[24-Nov-2021 06:09:23 UTC] PHP  12. sfCoreAutoload->autoload() /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php:245
+[24-Nov-2021 06:09:23 UTC] PHP  13. require() /var/www/html/jobeet/lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php:102
+[24-Nov-2021 06:10:18 UTC] PHP Fatal error:  Class 'PEAR_Config' not found in /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearConfig.class.php on line 22
+[24-Nov-2021 06:10:18 UTC] PHP Stack trace:
+[24-Nov-2021 06:10:18 UTC] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 06:10:18 UTC] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 06:10:18 UTC] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 06:10:18 UTC] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 06:10:18 UTC] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:98
+[24-Nov-2021 06:10:18 UTC] PHP   6. sfPluginListTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:70
+[24-Nov-2021 06:10:18 UTC] PHP   7. sfBaseTask->getPluginManager() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:49
+[24-Nov-2021 06:10:18 UTC] PHP   8. sfPearEnvironment->__construct() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:423
+[24-Nov-2021 06:10:18 UTC] PHP   9. sfPearEnvironment->initialize() /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php:49
+[24-Nov-2021 06:10:18 UTC] PHP  10. sfPearEnvironment->initializeConfiguration() /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php:100
+[24-Nov-2021 06:10:18 UTC] PHP  11. spl_autoload_call() /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php:245
+[24-Nov-2021 06:10:18 UTC] PHP  12. sfCoreAutoload->autoload() /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php:245
+[24-Nov-2021 06:10:18 UTC] PHP  13. require() /var/www/html/jobeet/lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php:102
+[24-Nov-2021 06:16:30 UTC] PHP Warning:  require_once(PEAR.php): failed to open stream: No such file or directory in /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php on line 15
+[24-Nov-2021 06:16:30 UTC] PHP Stack trace:
+[24-Nov-2021 06:16:30 UTC] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 06:16:30 UTC] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 06:16:30 UTC] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 06:16:30 UTC] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 06:16:30 UTC] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:98
+[24-Nov-2021 06:16:30 UTC] PHP   6. sfPluginListTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:70
+[24-Nov-2021 06:16:30 UTC] PHP   7. sfBaseTask->getPluginManager() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:49
+[24-Nov-2021 06:16:30 UTC] PHP   8. spl_autoload_call() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:418
+[24-Nov-2021 06:16:30 UTC] PHP   9. sfCoreAutoload->autoload() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:418
+[24-Nov-2021 06:16:30 UTC] PHP  10. require() /var/www/html/jobeet/lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php:102
+[24-Nov-2021 06:16:30 UTC] PHP Fatal error:  require_once(): Failed opening required 'PEAR.php' (include_path='.:/opt/php72/lib/php') in /var/www/html/jobeet/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php on line 15
+[24-Nov-2021 06:16:30 UTC] PHP Stack trace:
+[24-Nov-2021 06:16:30 UTC] PHP   1. {main}() /var/www/html/jobeet/symfony:0
+[24-Nov-2021 06:16:30 UTC] PHP   2. include() /var/www/html/jobeet/symfony:14
+[24-Nov-2021 06:16:30 UTC] PHP   3. sfSymfonyCommandApplication->run() /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php:34
+[24-Nov-2021 06:16:30 UTC] PHP   4. sfTask->runFromCLI() /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php:76
+[24-Nov-2021 06:16:30 UTC] PHP   5. sfBaseTask->doRun() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfTask.class.php:98
+[24-Nov-2021 06:16:30 UTC] PHP   6. sfPluginListTask->execute() /var/www/html/jobeet/lib/vendor/symfony/lib/task/sfBaseTask.class.php:70
+[24-Nov-2021 06:16:30 UTC] PHP   7. sfBaseTask->getPluginManager() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:49
+[24-Nov-2021 06:16:30 UTC] PHP   8. spl_autoload_call() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:418
+[24-Nov-2021 06:16:30 UTC] PHP   9. sfCoreAutoload->autoload() /var/www/html/jobeet/lib/vendor/symfony/lib/task/plugin/sfPluginListTask.class.php:418
+[24-Nov-2021 06:16:30 UTC] PHP  10. require() /var/www/html/jobeet/lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php:102
+[24-Nov-2021 09:40:36 Asia/Riyadh] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'The plugin "sfDoctrineGuardPlugin" does not exist.' in /var/www/html/jobeet/lib/vendor/symfony/lib/config/sfProjectConfiguration.class.php:468
+Stack trace:
+#0 /var/www/html/jobeet/lib/vendor/symfony/lib/config/sfProjectConfiguration.class.php(87): sfProjectConfiguration->getPluginPaths()
+#1 /var/www/html/jobeet/lib/vendor/symfony/lib/config/sfProjectConfiguration.class.php(69): sfProjectConfiguration->loadPlugins()
+#2 /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfSymfonyCommandApplication.class.php(37): sfProjectConfiguration->__construct('/var/www/html/j...', Object(sfEventDispatcher))
+#3 /var/www/html/jobeet/lib/vendor/symfony/lib/command/sfCommandApplication.class.php(75): sfSymfonyCommandApplication->configure()
+#4 /var/www/html/jobeet/lib/vendor/symfony/lib/command/cli.php(33): sfCommandApplication->__construct(Object(sfEventDispatcher), NULL, Array)
+#5 /var/www/html/jobeet/symfony(14): include('/var/www/html/j...')
+#6 {main}
+  thrown in /var/www/html/jobeet/lib/vendor/symfony/lib/config/sfProjectConfiguration.class.php on line 468
